@@ -1,0 +1,382 @@
+.tim-row {
+  margin-bottom: 20px;
+}
+
+.tim-white-buttons {
+  background-color: #777777;
+}
+.typography-line {
+  padding-left: 25%;
+  margin-bottom: 35px;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.typography-line span {
+  bottom: 10px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  left: 0;
+  position: absolute;
+  width: 260px;
+  text-transform: none;
+}
+.tim-row {
+  padding-top: 60px;
+}
+.tim-row h3 {
+  margin-top: 0;
+}
+
+.offline-doc .page-header {
+  display: flex;
+  align-items: center;
+}
+
+.offline-doc .footer {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  bottom: 0;
+  color: #fff;
+  z-index: 1;
+}
+.sidebar .nav > li.active-pro {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+.sidebar .nav > li.active-pro a {
+  background: rgba(255, 255, 255, 0.14);
+  opacity: 1;
+  color: #ffffff;
+}
+/* //////////////////<>/////////////////// */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.class_1 {
+  margin-left: 40px;
+  height: 85%;
+  width: 95%;
+  /*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));*/
+  background-position: center;
+  background-size: cover;
+  background-color: #fffffff3;
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: 0 0 16px 2px #999292;
+}
+.form-box {
+  width: 380px;
+  height: 510px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  overflow: hidden;
+  /*border-color: #e6ffee;*/
+  border: 0.1px groove;
+  box-shadow: 0px 0px 20px 15px #eff4f7;
+}
+.button-box {
+  width: 245px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #eff4f7;
+  border-radius: 30px;
+}
+.toggle-btn_ {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 132px;
+  height: 100%;
+  background: linear-gradient(to right, #00ccff, #0ca9f1);
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.social-icons {
+  margin: 30px auto;
+  text-align: center;
+}
+.social-icons img {
+  width: 30px;
+  margin: 0 12px;
+  box-shadow: 0 0 20px 0 #7f7f7f3d;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.input-group_1 {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+}
+.input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #00ccff, #0ca9f1);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+.check-box {
+  margin: 30px 10px 30px 0;
+}
+.span_1 {
+  color: #777;
+  font-size: 12px;
+  margin-top: 28px;
+}
+#login {
+  left: 50px;
+}
+#register_ {
+  left: 450px;
+}
+/* CAROUSEL */
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background: whitesmoke;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 650px;
+  margin-bottom: 60px;
+}
+
+.carousel-indicators {
+  height: 110px;
+}
+
+.carousel-indicators li {
+  padding: 5px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  top: 230px;
+  bottom: auto;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 800px;
+  background-color: #777;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 800px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: normal;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .container {
+    width: 98%;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    /*margin-top: 20px;*/
+  }
+
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+/*  MDBDATABLT */
+
+th.sorting {
+  background-color: AliceBlue;
+  box-shadow: 0 0 1px 1px grey;
+  text-align: center;
+}
+
+th.sorting_asc {
+  background-color: AliceBlue;
+  box-shadow: 0 0 1px 1px grey;
+
+  text-align: center;
+}
+th.sorting_desc {
+  background-color: AliceBlue;
+  box-shadow: 0 0 1px 1px grey;
+
+  text-align: center;
+  align-content: center;
+}
+th.sorting::before {
+  margin-left: 10px;
+  margin-bottom: 12px;
+  color: red;
+}
+th.sorting_asc::before {
+  margin-left: 10px;
+  margin-bottom: 12px;
+
+  color: red;
+}
+th.sorting_asc::after {
+  margin-left: 10px;
+  margin-bottom: 12px;
+
+  color: red;
+}
+
+th.sorting_desc::before {
+  margin-left: 10px;
+  margin-bottom: 12px;
+
+  color: red;
+}
+th.sorting_desc::after {
+  margin-left: 10px;
+  margin-bottom: 12px;
+
+  color: red;
+}
+tr {
+  box-shadow: 0 0 2px 1px azure;
+}
+table tr:hover {
+  background-color: grey;
+}
+.my-1 {
+  font-size: 18px;
+  padding: 13px;
+  text-align: center;
+}
